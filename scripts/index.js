@@ -3,18 +3,18 @@ const jsonFile = '/wishlist/data/wishlist.json';
 // const response = await fetch(jsonFile);
 // const data = await response.json();
 
-// fetch(jsonFile)
-//   .then((response) => response.json())
-//   .then((data) => fillOutCard(data));
+fetch(jsonFile)
+  .then((response) => response.json())
+  .then((data) => fillOutCard(data));
 
-const xhr = new XMLHttpRequest();
-xhr.open('GET', jsonFile);
-xhr.responseType = 'json';
-xhr.onload = () => {
-  const data = xhr.response;
-  fillOutCard(data);
-};
-xhr.send();
+// const xhr = new XMLHttpRequest();
+// xhr.open('GET', jsonFile);
+// xhr.responseType = 'json';
+// xhr.onload = () => {
+//   const data = xhr.response;
+//   fillOutCard(data);
+// };
+// xhr.send();
 
 const card = document.body.querySelector('.card');
 const seller = card.querySelector('.seller__icon');
