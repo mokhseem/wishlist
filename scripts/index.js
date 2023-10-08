@@ -1,4 +1,4 @@
-const jsonFile = '/data/wishlist.json';
+const jsonFile = '/wishlist/data/wishlist.json';
 
 // const response = await fetch(jsonFile);
 // const data = await response.json();
