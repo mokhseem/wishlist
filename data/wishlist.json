@@ -1,9 +1,11 @@
 [
   {
-    "seller": {
-      "link": "https://shop.garagemca.org/ru/books/music/no-need-to-be-shy-a-history-of-post-soviet-pop-music-in-169-songs-1991-2021-37447.html",
-      "icon": "https://shop.garagemca.org/static/img/favicon/favicon-32x32.png",
-      "name": "Магазин Музея «Гараж»"
+    "link": {
+      "primary": {
+        "href": "https://shop.garagemca.org/ru/books/music/no-need-to-be-shy-a-history-of-post-soviet-pop-music-in-169-songs-1991-2021-37447.html",
+        "src": "https://shop.garagemca.org/static/img/favicon/favicon-32x32.png",
+        "alt": "Магазин Музея «Гараж»"
+      }
     },
     "image": {
       "src": "https://shop.garagemca.org/thumbs/37/all_files-2f02-2f96-2f29626_9fc7501a68ba28fa067eede74e89961d23e26c0f.png_bannerSingleMobileX1__1.jpg",
@@ -14,10 +16,12 @@
     "price": 2000
   },
   {
-    "seller": {
-      "link": "https://ozon.ru/t/oLkW4XE",
-      "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAAb1BMVEVHcEz7D1L7FFb5EVUAXf8AW/8AXP/5B0ZPVtoAXP8AW//5EFX////6AEQATP/6A1D9r8H+0t77SnfZ5v/+5ez/8fb6JGX9kqvr8//9vc+sxP9Dfv+Usv+6z//D1//7b5H4/P9hkP+SJqOQOK2VNafJntLeAAAACnRSTlMA5EyuTOHm+guuiS8soAAAATxJREFUOI19k9mWgyAQRDExHhWbxX3PMvP/3zjQgILRqSelLk1TACFKcZbkX0qymBilj2/X6JGif2VraeJyPtZQ6//n53lMsuCfObmBjCS++x7X/lW8qnXOLZKQ3X6vhadqMogD2FQVB43MA9h4tHURtgP9iV8UC3OA8xvxbClvn8L+TwZgdnlZAnBOKeUAwpVQAJvN7BK0aWWIHoEc/Zp7tirS4qgGTIEGKL0CsIOShwB0dqMKwP4OBSjHAvMGiBDgUCOAQTEdQh0A0Bq/+yCw4Pe2RxVCZ3KpAX71NqctJVTpYmzUFPjRQS12RA5ikNtBmGC4H3Ug1zY5P2y1oG3JXDlWSt8e9mOJ7KUFoN0gm6KppXiCd2p3e+0Bt2cUhH6zD+eYtFPknt4VkLrHew5EqX3fcRaduPeb9v4AVm4vHjvSW/kAAAAASUVORK5CYII=",
-      "name": "Озон"
+    "link": {
+      "primary": {
+        "href": "https://ozon.ru/t/oLkW4XE",
+        "src": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAAb1BMVEVHcEz7D1L7FFb5EVUAXf8AW/8AXP/5B0ZPVtoAXP8AW//5EFX////6AEQATP/6A1D9r8H+0t77SnfZ5v/+5ez/8fb6JGX9kqvr8//9vc+sxP9Dfv+Usv+6z//D1//7b5H4/P9hkP+SJqOQOK2VNafJntLeAAAACnRSTlMA5EyuTOHm+guuiS8soAAAATxJREFUOI19k9mWgyAQRDExHhWbxX3PMvP/3zjQgILRqSelLk1TACFKcZbkX0qymBilj2/X6JGif2VraeJyPtZQ6//n53lMsuCfObmBjCS++x7X/lW8qnXOLZKQ3X6vhadqMogD2FQVB43MA9h4tHURtgP9iV8UC3OA8xvxbClvn8L+TwZgdnlZAnBOKeUAwpVQAJvN7BK0aWWIHoEc/Zp7tirS4qgGTIEGKL0CsIOShwB0dqMKwP4OBSjHAvMGiBDgUCOAQTEdQh0A0Bq/+yCw4Pe2RxVCZ3KpAX71NqctJVTpYmzUFPjRQS12RA5ikNtBmGC4H3Ug1zY5P2y1oG3JXDlWSt8e9mOJ7KUFoN0gm6KppXiCd2p3e+0Bt2cUhH6zD+eYtFPknt4VkLrHew5EqX3fcRaduPeb9v4AVm4vHjvSW/kAAAAASUVORK5CYII=",
+        "alt": "Озон"
+      }
     },
     "image": {
       "src": "https://d2j6dbq0eux0bg-cdn.ecwid.net/images/17991158/2851487766.jpg",
@@ -28,10 +32,12 @@
     "price": 1090
   },
   {
-    "seller": {
-      "link": "https://aliexpress.ru/item/32808495861.html",
-      "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAC30lEQVR4Aa1XA7BbQRTd4W9U225Q27btUTUuBtWwGNS2bdtmXr5t2/btu2nMvfk5Mzd8u3u1Z88yXgidGzXQqWUrBJX0vE4p/Su+Z4pWabBMw2/nBKVs+e+ujeszb0HXU64S1NJL4uSlogGnlWqV0ovaHooezFMIA5hUUMkOi5NViQYeWpVOJTv4sy2TMAp8e0hbG1IKXjI/QSNpzxe5StpftFSeiWM2rBBtOa8TKTg3c4XfXSVteRdHS9q3HZL2bqVkIvOP0qc7cwSsk/jAH0pqM66fhIyrx6nlCMb+YrYwNBxQrCw2EkqjQsk9oVNJd9ttNWq3B8/sD0YET+tDdaIEG92y8S5To8h5fgeMyH54lZwFrVp6hiGQtYgkA2FLxgDU1oIRtdXVEDpvKDkL33s0VTCkV8pA/+HtoDwpDmyBv+F/tF6QLGHI7bwDAkZ2hOIgAZyhSPgO/kPb0MqgVUm1vGmvSE0EdyiPj4KQOYN4nfiNGchy1+05z+7oa86L2uoqyLp7EQInqlw7oJRmoAMV1vS6HNkNSUa/z+uKkhA/SDt3ABJ2bYKodXNtnSh34MCK/w5cOwFlMRFQV1SkJEDW/cuQcnw3xG1Z7cgBNyWY0Q9ynt4CqKkBXmC58t4+htBFI92XgPfYDVs0Sh+NO1RmpEL4ykm8TfiLoYzi5oARHaA4UOu83mEBEDC2K20booYjEdGwtlCeGGsfeWYaBI7tRiMitWSxkYpLKAOxHMaeMNY8bNk4MhWHaJicIVBAEgfrG9OInBd3PZFpp5gRqF6pxzHuDiNCZg+kLl4sWitmCVSvxEmQJ5B6PYl+J7PFp46snkeS7Pop6uJBDiUZwr+7pA2qV25RuncbGkmU6jQ+XXlkeRafLF+O1M29OM7NeIDSGVPlxYtJIEZOvpqherXjCHq377K/mtGvaaeJjuCzp/RbzVtAAYkaDvkblYyhphVoeKrhb+go0que4TjxD4SilE/zlgWZAAAAAElFTkSuQmCC",
-      "name": "Алиэкспресс"
+    "link": {
+      "primary": {
+        "href": "https://aliexpress.ru/item/32808495861.html",
+        "src": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAC30lEQVR4Aa1XA7BbQRTd4W9U225Q27btUTUuBtWwGNS2bdtmXr5t2/btu2nMvfk5Mzd8u3u1Z88yXgidGzXQqWUrBJX0vE4p/Su+Z4pWabBMw2/nBKVs+e+ujeszb0HXU64S1NJL4uSlogGnlWqV0ovaHooezFMIA5hUUMkOi5NViQYeWpVOJTv4sy2TMAp8e0hbG1IKXjI/QSNpzxe5StpftFSeiWM2rBBtOa8TKTg3c4XfXSVteRdHS9q3HZL2bqVkIvOP0qc7cwSsk/jAH0pqM66fhIyrx6nlCMb+YrYwNBxQrCw2EkqjQsk9oVNJd9ttNWq3B8/sD0YET+tDdaIEG92y8S5To8h5fgeMyH54lZwFrVp6hiGQtYgkA2FLxgDU1oIRtdXVEDpvKDkL33s0VTCkV8pA/+HtoDwpDmyBv+F/tF6QLGHI7bwDAkZ2hOIgAZyhSPgO/kPb0MqgVUm1vGmvSE0EdyiPj4KQOYN4nfiNGchy1+05z+7oa86L2uoqyLp7EQInqlw7oJRmoAMV1vS6HNkNSUa/z+uKkhA/SDt3ABJ2bYKodXNtnSh34MCK/w5cOwFlMRFQV1SkJEDW/cuQcnw3xG1Z7cgBNyWY0Q9ynt4CqKkBXmC58t4+htBFI92XgPfYDVs0Sh+NO1RmpEL4ykm8TfiLoYzi5oARHaA4UOu83mEBEDC2K20booYjEdGwtlCeGGsfeWYaBI7tRiMitWSxkYpLKAOxHMaeMNY8bNk4MhWHaJicIVBAEgfrG9OInBd3PZFpp5gRqF6pxzHuDiNCZg+kLl4sWitmCVSvxEmQJ5B6PYl+J7PFp46snkeS7Pop6uJBDiUZwr+7pA2qV25RuncbGkmU6jQ+XXlkeRafLF+O1M29OM7NeIDSGVPlxYtJIEZOvpqherXjCHq377K/mtGvaaeJjuCzp/RbzVtAAYkaDvkblYyhphVoeKrhb+go0que4TjxD4SilE/zlgWZAAAAAElFTkSuQmCC",
+        "alt": "Алиэкспресс"
+      }
     },
     "image": {
       "src": "https://ic.pics.livejournal.com/kladun/1123388/135576/135576_original.jpg",
@@ -42,10 +48,12 @@
     "price": 2630
   },
   {
-    "seller": {
-      "link": "https://ozon.ru/t/nB4awRN",
-      "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAAb1BMVEVHcEz7D1L7FFb5EVUAXf8AW/8AXP/5B0ZPVtoAXP8AW//5EFX////6AEQATP/6A1D9r8H+0t77SnfZ5v/+5ez/8fb6JGX9kqvr8//9vc+sxP9Dfv+Usv+6z//D1//7b5H4/P9hkP+SJqOQOK2VNafJntLeAAAACnRSTlMA5EyuTOHm+guuiS8soAAAATxJREFUOI19k9mWgyAQRDExHhWbxX3PMvP/3zjQgILRqSelLk1TACFKcZbkX0qymBilj2/X6JGif2VraeJyPtZQ6//n53lMsuCfObmBjCS++x7X/lW8qnXOLZKQ3X6vhadqMogD2FQVB43MA9h4tHURtgP9iV8UC3OA8xvxbClvn8L+TwZgdnlZAnBOKeUAwpVQAJvN7BK0aWWIHoEc/Zp7tirS4qgGTIEGKL0CsIOShwB0dqMKwP4OBSjHAvMGiBDgUCOAQTEdQh0A0Bq/+yCw4Pe2RxVCZ3KpAX71NqctJVTpYmzUFPjRQS12RA5ikNtBmGC4H3Ug1zY5P2y1oG3JXDlWSt8e9mOJ7KUFoN0gm6KppXiCd2p3e+0Bt2cUhH6zD+eYtFPknt4VkLrHew5EqX3fcRaduPeb9v4AVm4vHjvSW/kAAAAASUVORK5CYII=",
-      "name": "Озон"
+    "link": {
+      "primary": {
+        "href": "https://ozon.ru/t/nB4awRN",
+        "src": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAAb1BMVEVHcEz7D1L7FFb5EVUAXf8AW/8AXP/5B0ZPVtoAXP8AW//5EFX////6AEQATP/6A1D9r8H+0t77SnfZ5v/+5ez/8fb6JGX9kqvr8//9vc+sxP9Dfv+Usv+6z//D1//7b5H4/P9hkP+SJqOQOK2VNafJntLeAAAACnRSTlMA5EyuTOHm+guuiS8soAAAATxJREFUOI19k9mWgyAQRDExHhWbxX3PMvP/3zjQgILRqSelLk1TACFKcZbkX0qymBilj2/X6JGif2VraeJyPtZQ6//n53lMsuCfObmBjCS++x7X/lW8qnXOLZKQ3X6vhadqMogD2FQVB43MA9h4tHURtgP9iV8UC3OA8xvxbClvn8L+TwZgdnlZAnBOKeUAwpVQAJvN7BK0aWWIHoEc/Zp7tirS4qgGTIEGKL0CsIOShwB0dqMKwP4OBSjHAvMGiBDgUCOAQTEdQh0A0Bq/+yCw4Pe2RxVCZ3KpAX71NqctJVTpYmzUFPjRQS12RA5ikNtBmGC4H3Ug1zY5P2y1oG3JXDlWSt8e9mOJ7KUFoN0gm6KppXiCd2p3e+0Bt2cUhH6zD+eYtFPknt4VkLrHew5EqX3fcRaduPeb9v4AVm4vHjvSW/kAAAAASUVORK5CYII=",
+        "alt": "Озон"
+      }
     },
     "image": {
       "src": "https://static.onlinetrade.ru/img/items/b/maono_au_hd300t_2603708_2.jpg",
