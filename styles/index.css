@@ -98,14 +98,18 @@
   text-transform: uppercase;
 }
 
-/* .card__title > .card__link::before { */
-/*   content: ""; */
-/*   position: absolute; */
-/*   inset: 0; */
-/* } */
+.card__title > .card__link::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+}
 
 .card__link {
   color: inherit;
+
+  &:hover {
+    text-decoration: none;
+  }
 }
 
 .card__description,
