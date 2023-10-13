@@ -1,3 +1,5 @@
+import {shopFavicon} from './favsmap.js';
+
 // local:
 // const jsonFile = '../data/wishlist.json';
 
@@ -39,8 +41,14 @@ const fillOutCard = (jsonArray) => {
     for (const {link, image, title, description, price} of jsonArray) {
       const cardClone = cardTemplate.cloneNode(true);
 
-      cardClone.querySelector('.seller__icon').src = link.primary.src;
-      cardClone.querySelector('.seller__icon').alt = link.primary.alt;
+      const url = new URL(link.primary.href);
+      const domain = url.hostname.split('.').at(-2);
+
+      cardClone.querySelector('.seller__icon')
+        .src = link.primary.src || shopFavicon[domain].src;
+      cardClone.querySelector('.seller__icon')
+        .alt = link.primary.alt || shopFavicon[domain].alt;
+
       cardClone.querySelector('.card__image').src = image.src;
       cardClone.querySelector('.card__image').alt = image.alt;
       cardClone.querySelector('.card__title > a').textContent = title;
