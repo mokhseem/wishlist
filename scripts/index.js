@@ -1,10 +1,10 @@
 import {shopFavicon} from './favsmap.js';
 
 // local:
-// const jsonFile = '../data/wishlist.json';
+const jsonFile = '../data/wishlist.json';
 
 // pages:
-const jsonFile = '/wishlist/data/wishlist.json';
+// const jsonFile = '/wishlist/data/wishlist.json';
 
 const getTemplateById = (id) => {
   const template = document.querySelector(`#${id}`);
@@ -51,6 +51,11 @@ const fillOutCard = (jsonArray) => {
 
       cardClone.querySelector('.card__image').src = image.src;
       cardClone.querySelector('.card__image').alt = image.alt;
+      if (image.crop) {
+        cardClone.querySelector('.card__image')
+          .classList.add(`image--${image.crop}`);
+      }
+
       cardClone.querySelector('.card__title > a').textContent = title;
       cardClone.querySelector('.card__description').textContent = description;
       cardClone.querySelector('.card__price > data').value = price;
