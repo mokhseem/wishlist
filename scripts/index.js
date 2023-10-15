@@ -1,10 +1,10 @@
 import {shopFavicon} from './favsmap.js';
 
 // local:
-const jsonFile = '../data/wishlist.json';
+// const jsonFile = '../data/wishlist.json';
 
 // pages:
-// const jsonFile = '/wishlist/data/wishlist.json';
+const jsonFile = '/wishlist/data/wishlist.json';
 
 const getTemplateById = (id) => {
   const template = document.querySelector(`#${id}`);
