@@ -2,6 +2,54 @@
   {
     "link": {
       "primary": {
+        "href": "https://aliexpress.ru/item/1005005785846814.html"
+      }
+    },
+    "image": {
+      "src": "data/images/orangepi.webp",
+      "alt": "Микрокомпьютер Orange Pi на ладони"
+    },
+    "title": "Orange Pi Zero 3",
+    "description": "Одноплатный компьютер",
+    "price": 3200
+  },
+  {
+    "link": {
+      "primary": {
+        "href": "https://ozon.ru/t/8M5RbqJ"
+      },
+      "secondary": {
+        "href": "https://www.labirint.ru/books/826801"
+      },
+      "tertiary": {
+        "href": "https://www.artlebedev.ru/izdal/spravochnik-izdatelya-i-avtora-2021"
+      }
+    },
+    "image": {
+      "src": "data/images/typobook.webp",
+      "alt": "Справочник Мильчина и Чельцовой"
+    },
+    "title": "Справочник издателя и автора",
+    "description": "Книга (справочник)",
+    "price": 2100
+  },
+  {
+    "link": {
+      "primary": {
+        "href": "https://aliexpress.ru/item/1005002611565759.html"
+      }
+    },
+    "image": {
+      "src": "data/images/fuzz.webp",
+      "alt": "Фузз-педаль Caline"
+    },
+    "title": "Caline CP-504 M-Fuzz",
+    "description": "Педаль эффектов для гитары",
+    "price": 3600
+  },
+  {
+    "link": {
+      "primary": {
         "href": "https://www.ozon.ru/seller/xl-media-46708/products/?from_global=true&miniapp=seller_46708&text=да+благославят"
       },
       "secondary": {
@@ -13,11 +61,11 @@
     },
     "image": {
       "src": "data/images/konosuba.webp",
-      "alt": "Собрание томов ранобэ «КоноСуба»"
+      "alt": "Собрание томов ранобэ «Коносуба»"
     },
     "title": "Да благословят боги этот прекрасный мир!, Т. 1‑4",
     "description": "Книга (ранобэ)",
-    "price": 815
+    "price": 800
   },
   {
     "link": {
@@ -34,7 +82,7 @@
     },
     "title": "Истории о ранах/монстрах, Т. 1‑2",
     "description": "Книга (ранобэ)",
-    "price": 850
+    "price": 800
   },
   {
     "link": {
@@ -49,12 +97,12 @@
       }
     },
     "image": {
-      "src": "https://static.mercdn.net/item/detail/orig/photos/m46663486628_1.jpg?1696295713",
+      "src": "data/images/ajin.webp",
       "alt": "Собрание томов манги «Нелюдь»"
     },
     "title": "Нелюдь, Т. 4‑17",
     "description": "Манга",
-    "price": 475
+    "price": 450
   },
   {
     "link": {
@@ -66,13 +114,12 @@
       }
     },
     "image": {
-      "src": "https://i.ebayimg.com/images/g/vVgAAOSwWxZkLL8W/s-l1200.webp",
-      "alt": "Диск с фильмом «Логан»",
-      "crop": "square"
+      "src": "data/images/bd-logan.webp",
+      "alt": "Диск с фильмом «Логан»"
     },
     "title": "Логан",
     "description": "Фильм на Blu-ray",
-    "price": 910
+    "price": 900
   },
   {
     "link": {
@@ -81,7 +128,7 @@
       }
     },
     "image": {
-      "src": "https://ae01.alicdn.com/kf/S05c934d6346b464ab5b831326b1d0209U.jpg",
+      "src": "data/images/kbear.webp",
       "alt": "Наушники KbEar"
     },
     "title": "KbEar KS2",
@@ -98,7 +145,7 @@
       }
     },
     "image": {
-      "src": "https://mtdata.ru/u7/photoBD1C/20617769606-0/original.jpg",
+      "src": "data/images/tabineko.webp",
       "alt": "Книга Хиро Арикавы",
       "crop": "square"
     },
@@ -113,13 +160,12 @@
       }
     },
     "image": {
-      "src": "https://kprepublic.com/cdn/shop/products/IMG_1238.jpg",
-      "alt": "Клавиши-стрелки HJKL на клавиатуре",
-      "crop": "fullscreen"
+      "src": "data/images/hjkl.webp",
+      "alt": "Клавиши-стрелки HJKL на клавиатуре"
     },
     "title": "Vim HJKL Arrowkey",
     "description": "Клавиши для клавиатуры",
-    "price": 780
+    "price": 800
   },
   {
     "link": {
@@ -128,12 +174,12 @@
       }
     },
     "image": {
-      "src": "https://avatars.mds.yandex.net/get-marketpic/7344827/pic4ce3e639dda2ce56ef647ae4e13ae6cd/orig",
+      "src": "data/images/ps3-silent.webp",
       "alt": "Диск с игрой серии Silent Hill"
     },
     "title": "Silent Hill HD Colection",
     "description": "Игра для PlayStation®3 (б/у)",
-    "price": 3000
+    "price": 2700
   },
   {
     "link": {
@@ -147,13 +193,12 @@
       }
     },
     "image": {
-      "src": "https://shop.bdva.ru/upload/iblock/357/g795aknzecdhm3btkzsunx8rf42ddz2x.png",
-      "alt": "Кассета группы «Би-2»",
-      "crop": "square"
+      "src": "data/images/mc-bi2.webp",
+      "alt": "Кассета группы «Би-2»"
     },
     "title": "Би-2",
     "description": "Аудиокассета",
-    "price": 1440
+    "price": 1400
   },
   {
     "link": {
@@ -162,29 +207,12 @@
       }
     },
     "image": {
-      "src": "https://bikepacking-adventures.com/wp-content/uploads/2020/03/Sigma-BC-5.16-Funktionen-1-696x464.jpg",
-      "alt": "Велокомпьютер Sigma",
-      "crop": "square"
+      "src": "data/images/sigma.webp",
+      "alt": "Велокомпьютер Sigma"
     },
     "title": "Sigma BC 5.16",
     "description": "Велокомпьютер",
-    "price": 1770
-  },
-  {
-    "link": {
-      "primary": {
-        "href": "https://shop.garagemca.org/ru/books/music/no-need-to-be-shy-a-history-of-post-soviet-pop-music-in-169-songs-1991-2021-37447.html",
-        "src": "https://shop.garagemca.org/static/img/favicon/favicon-32x32.png",
-        "alt": "Магазин Музея «Гараж»"
-      }
-    },
-    "image": {
-      "src": "https://shop.garagemca.org/thumbs/37/all_files-2f02-2f96-2f29626_9fc7501a68ba28fa067eede74e89961d23e26c0f.png_bannerSingleMobileX1__1.jpg",
-      "alt": "Книга Шурика Горбачева"
-    },
-    "title": "Не надо стесняться",
-    "description": "Книга (нон-фикшн)",
-    "price": 2000
+    "price": 1750
   },
   {
     "link": {
@@ -193,12 +221,12 @@
       }
     },
     "image": {
-      "src": "https://d2j6dbq0eux0bg-cdn.ecwid.net/images/17991158/2851487766.jpg",
+      "src": "data/images/mc-alliance.webp",
       "alt": "Кассета группы «Альянс»"
     },
     "title": "Альянс ’87",
     "description": "Аудиокассета",
-    "price": 1090
+    "price": 1100
   },
   {
     "link": {
@@ -207,25 +235,28 @@
       }
     },
     "image": {
-      "src": "https://ic.pics.livejournal.com/kladun/1123388/135576/135576_original.jpg",
+      "src": "data/images/antennae.webp",
       "alt": "Антенны Tecsun"
     },
     "title": "Tecsun AN-200 / AN-100",
     "description": "Радиоантенна",
-    "price": 2630
+    "price": 2600
   },
   {
     "link": {
       "primary": {
+        "href": "https://ozon.ru/t/yZqgo79"
+      },
+      "secondary": {
         "href": "https://ozon.ru/t/nB4awRN"
       }
     },
     "image": {
-      "src": "https://static.onlinetrade.ru/img/items/b/maono_au_hd300t_2603708_2.jpg",
+      "src": "data/images/maono.webp",
       "alt": "Микрофон Maono"
     },
-    "title": "Maono AU-HD300T",
+    "title": "Maono AU-HD300",
     "description": "Микрофон",
-    "price": 5580
+    "price": 3900
   }
 ]
