@@ -56,6 +56,7 @@ const fillOutCard = (jsonArray) => {
           .classList.add(`image--${image.crop}`);
       }
 
+      cardClone.querySelector('.card__link').href = link.primary.href;
       cardClone.querySelector('.card__title > a').textContent = title;
       cardClone.querySelector('.card__description').textContent = description;
       cardClone.querySelector('.card__price > data').value = price;
