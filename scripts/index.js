@@ -7,7 +7,7 @@ import {shopFavicon} from './favsmap.js';
 const jsonFile = '/wishlist/data/wishlist.json';
 
 const getTemplateById = (id) => {
-  const template = document.querySelector(`#${id}`);
+  const template = document.getElementById(id);
   if (template === null) {
     return template;
   }
@@ -33,45 +33,62 @@ const checkPriceRange = (value) => {
 };
 
 const wishlist = document.body.querySelector('.list');
-const wishlistFragment = document.createDocumentFragment();
 const cardTemplate = getTemplateById('card');
+const sellerTemplate = getTemplateById('seller');
 
-const fillOutCard = (jsonArray) => {
+const createCardCollection = (jsonArray) => {
+  const cardBox = document.createDocumentFragment();
+
   if (cardTemplate) {
     for (const {link, image, title, description, price} of jsonArray) {
       const cardClone = cardTemplate.cloneNode(true);
+      const cardImage = cardClone.querySelector('.card__image');
+      const cardPrice = cardClone.querySelector('.card__price > data');
 
-      const url = new URL(link.primary.href);
-      const domain = url.hostname.split('.').at(-2);
+      if (sellerTemplate) {
+        const seller = cardClone.querySelector('.seller');
+        const sellerBox = document.createDocumentFragment();
 
-      cardClone.querySelector('.seller__icon')
-        .src = link.primary.src || shopFavicon[domain].src;
-      cardClone.querySelector('.seller__icon')
-        .alt = link.primary.alt || shopFavicon[domain].alt;
+        for (const priorityLink of Object.keys(link)) {
+          const sellerClone = sellerTemplate.cloneNode(true);
+          const sellerIcon = sellerClone.querySelector('.seller__icon');
 
-      cardClone.querySelector('.card__image').src = image.src;
-      cardClone.querySelector('.card__image').alt = image.alt;
+          const url = new URL(link[priorityLink].href);
+          const domain = url.hostname.split('.').at(-2);
+
+          if (priorityLink) {
+            sellerClone.href = link[priorityLink].href;
+            // sellerClone.classList.add(`link--${priorityLink}`);
+            sellerIcon.src = link[priorityLink].icon || shopFavicon[domain].icon;
+            sellerIcon.alt = link[priorityLink].name || shopFavicon[domain].name;
+          }
+
+          sellerBox.append(sellerClone);
+        }
+        seller.append(sellerBox);
+      }
+
+      cardImage.src = image.src;
+      cardImage.alt = image.alt;
       if (image.crop) {
-        cardClone.querySelector('.card__image')
-          .classList.add(`image--${image.crop}`);
+        cardImage.classList.add(`image--${image.crop}`);
       }
 
       cardClone.querySelector('.card__link').href = link.primary.href;
       cardClone.querySelector('.card__title > a').textContent = title;
       cardClone.querySelector('.card__description').textContent = description;
-      cardClone.querySelector('.card__price > data').value = price;
-      cardClone.querySelector('.card__price > data')
-        .textContent = new Intl.NumberFormat('ru-RU').format(price);
 
-      cardClone.querySelector('.card')
-        .classList.add(checkPriceRange(price));
+      cardPrice.value = price;
+      cardPrice.textContent = new Intl.NumberFormat('ru-RU').format(price);
 
-      wishlistFragment.append(cardClone);
+      cardClone.querySelector('.card').classList.add(checkPriceRange(price));
+
+      cardBox.append(cardClone);
     }
-    wishlist.append(wishlistFragment);
+    wishlist.append(cardBox);
   }
 };
 
 fetch(jsonFile)
   .then((response) => response.json())
-  .then((data) => fillOutCard(data));
+  .then((data) => createCardCollection(data));

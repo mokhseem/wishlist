@@ -2,16 +2,16 @@
   {
     "link": {
       "primary": {
-        "href": "https://aliexpress.ru/item/1005005785846814.html"
+        "href": "https://www.avito.ru/all?q=подставка+для+кассет"
       }
     },
     "image": {
-      "src": "data/images/orangepi.webp",
-      "alt": "Микрокомпьютер Orange Pi на ладони"
+      "src": "data/images/mc-box.webp",
+      "alt": "Подставка для кассет"
     },
-    "title": "Orange Pi Zero 3",
-    "description": "Одноплатный компьютер",
-    "price": 3200
+    "title": "Кассетный бокс",
+    "description": "Подставка для кассет",
+    "price": 500
   },
   {
     "link": {
@@ -188,8 +188,8 @@
       },
       "secondary": {
         "href": "https://shop.bdva.ru/catalog/muzyka/kasseta-bi-2",
-        "src": "https://shop.bdva.ru/local/templates/bdva/favicon.png",
-        "alt": "Би-2 Shop"
+        "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAC7ElEQVR4Ae2VU/gcPRSH8xntTjLarc0/a9u2bdu2jdvaxk3d3j+1bdtW+jvT5Kntdi7eDU7w5mRnhkkpvynejy/gC/gCvgDn3MMwDGaaJnNdl6D2CzEhhNfvOM7zMZpD6LbmrwBKZhuAMynSs8s8kh3gYWx/ILzAQTPFHwdESk+AFpXPgw02ABYMBlkoFNqDUhI6btv2IBUvACTEEgMa64ExNF8a6GOWUQcCg6UR3vYqj5p0kIdV3s/D5CGemh0RqZ4KYDAt2pnMUUZSG7QhAXAefVJl53fUeyqJbSpbkuLPC9B8yzT7GIgz25QsVmDdcZGa3eVR2DhMHnwq8M8LAiAXTbYsy2ujbKAETmgBiqFOm4YDqQQ4kJCPSW3MXQOkiwzFNEUR5gqZ14nL5H8ZckkjWp7g4Z7AfpSHROoyWsBLLQT0FdCJaEMSOE4C4Pn/h5YeD3QGz6o4XVeZEOQN9P/t2A3+w1zJ0zbdYqWOK40oeUJE9TxkhLOjIuxZBjB5YCAQ8NKM9hkglcBelFKdnFFJKIF2SkBf2yWVDYYMNLI9AbNGEsstF9O18zLnX7YnkDKjFGFFJdJ/nUe8cAUZAFOUU30ksJ0EdAx1Ermq488hVSYzkoDOpIM/6T9BW7IQcLnMLlwGAXaLBMDzAsQR8EidXj8Jl1XshB6nThlLXYWmiIpRFo/StaGk+cwI4rE1BfvPtiBBCAYZDy0wBkwF88ECTC4O9MIVwEQVm43+MoBBQD9yXl2NDwHqm4zNs+vr0mNM2zaF68z8z3XYP+BvoAWe5/l7fmsMp0uHxfOplxS1n78mGpcXRGsBlGFangtBfJyAehLyYKON6MuoHtflSmAg+g3ER4KGVKIvN6iCuR2DrjsUsoXV2/PDBNT9amhMI/SPUBtvAz0wZi9iCcB81LXwMFAJ9dEYMx0C2T5KQPcrXNAdrAaJ1P+I0amxcExs0hz1GYgtRcoTo6yAzHQELxzC/xz7Ar6AL+ALPAEbrz4oiG82XAAAAABJRU5ErkJggg==",
+        "name": "Би-2 Shop"
       }
     },
     "image": {
@@ -218,6 +218,11 @@
     "link": {
       "primary": {
         "href": "https://ozon.ru/t/oLkW4XE"
+      },
+      "secondary": {
+        "href": "https://maschinarecords.com/MC-Альянс-На-Заре-1987-2018-Tape-Edition-p191591211",
+        "icon": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kHDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyUrNzU3Nzc3Nzc3NzU3Kzc3NystNTc3NzUtLTUtNzc1NTUrNTUtNy01NS8tKys3LTctLf/AABEIACAAIAMBIgACEQEDEQH/xAAYAAADAQEAAAAAAAAAAAAAAAAFBgcDAv/EACkQAAECBQMDAwUAAAAAAAAAAAECAwAEBhESBSExBxMiUWGBFEFikaH/xAAXAQADAQAAAAAAAAAAAAAAAAAAAQUC/8QAGxEBAAIDAQEAAAAAAAAAAAAAAQACEjFBESH/2gAMAwEAAhEDEQA/AJIhF41DcNtIUQ9UekP6i1OBlDD62nElrKwDRXlfIcmybe9/aDDnTpEst5E1rKUFkkrxliqyQz3Tfz2OywL7HBW44ipnQfFk9L7k5U3GSk2ipMdLFTaGls602pt5JU0sS/isYJUCPPg5W+IVqxpB2mpeUfcmg+mYefat28Cktqx33PO/6hZ0XwZorY3M6brDVKfknpPTyx2Xllaw43lcnH3/AAH9gwepWuuXLqZFZUVZFTB8kqvdJsrje3rtzzdBCiI7DkPGj9SDlxju51I19SHBlKguBQKgzYjJAQSPL0A+YE1RWOqVKwhnUvpu2h0uoDTWOKje/wBzsbwuly8cE3gxqaIDbrP/2Q==",
+        "name": "Maschina Records Store"
       }
     },
     "image": {
