@@ -2,6 +2,71 @@
   {
     "link": {
       "primary": {
+        "href": "https://aliexpress.ru/item/1005005785846814.html"
+      }
+    },
+    "image": {
+      "src": "data/images/orangepi.webp",
+      "alt": "Микрокомпьютер Orange Pi на ладони"
+    },
+    "title": "Orange Pi Zero 3",
+    "description": "Одноплатный компьютер",
+    "price": 3200
+  },
+  {
+    "link": {
+      "primary": {
+        "href": "https://www.vseinstrumenti.ru/product/payalnik-proskit-8pk-s118b-40-00324807-907253"
+      }
+    },
+    "image": {
+      "src": "data/images/blowpipe.webp",
+      "alt": "Паяльник ProsKit"
+    },
+    "title": "ProsKit 8PK-S118B",
+    "description": "Паяльник",
+    "price": 850
+  },
+  {
+    "link": {
+      "primary": {
+        "href": "https://www.avito.ru/all?q=егор+кассета"
+      },
+      "secondary": {
+        "href": "https://meshok.net/listing?search=егор%20прыг%20скок"
+      }
+    },
+    "image": {
+      "src": "data/images/mc-egor.webp",
+      "alt": "Кассета группы «Егор и Опизденевшие»"
+    },
+    "title": "Прыг-скок (hmc-023)",
+    "description": "Аудиокассета (б/у)",
+    "price": 1000
+  },
+  {
+    "link": {
+      "primary": {
+        "href": "https://ozon.ru/t/Q51e67l"
+      },
+      "secondary": {
+        "href": "https://market.yandex.ru/product--elektrobritva-berdsk-8/1772865837"
+      },
+      "tertiary": {
+        "href": "https://www.dns-shop.ru/product/a49356ee44423330/elektrobritva-berdsk-8"
+      }
+    },
+    "image": {
+      "src": "data/images/berdsk.webp",
+      "alt": "Электробритва Бердск-8"
+    },
+    "title": "Бердск-8",
+    "description": "Электробритва",
+    "price": 2000
+  },
+  {
+    "link": {
+      "primary": {
         "href": "https://www.avito.ru/all?q=подставка+для+кассет"
       }
     },
@@ -63,7 +128,7 @@
       "src": "data/images/konosuba.webp",
       "alt": "Собрание томов ранобэ «Коносуба»"
     },
-    "title": "Да благословят боги этот прекрасный мир!, Т. 1‑4",
+    "title": "Да благословят боги этот прекрасный мир!, Т. 1—4",
     "description": "Книга (ранобэ)",
     "price": 800
   },
@@ -80,7 +145,7 @@
       "src": "data/images/monogatari.webp",
       "alt": "Книги из цикла «Моногатари»"
     },
-    "title": "Истории о ранах/монстрах, Т. 1‑2",
+    "title": "Истории о ранах/монстрах, Т. 1—2",
     "description": "Книга (ранобэ)",
     "price": 800
   },
@@ -100,7 +165,7 @@
       "src": "data/images/ajin.webp",
       "alt": "Собрание томов манги «Нелюдь»"
     },
-    "title": "Нелюдь, Т. 4‑17",
+    "title": "Нелюдь, Т. 4—17",
     "description": "Манга",
     "price": 450
   },
@@ -171,6 +236,14 @@
     "link": {
       "primary": {
         "href": "https://www.avito.ru/all?q=silent+hill+ps3"
+      },
+      "secondary": {
+        "href": "https://www.ozon.ru/category/igry-dlya-playstation-3-13303/?text=silent+hill+hd"
+      },
+      "tertiary": {
+        "href": "https://game-port.online/catalog/igry_/igry_dlya_playstation_3/1684",
+        "icon": "data:image/png;base64,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",
+        "name": "Game Port"
       }
     },
     "image": {
@@ -229,7 +302,7 @@
       "src": "data/images/mc-alliance.webp",
       "alt": "Кассета группы «Альянс»"
     },
-    "title": "Альянс ’87",
+    "title": "Альянс ’87 (MASHMC-023)",
     "description": "Аудиокассета",
     "price": 1100
   },
