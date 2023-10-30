@@ -19,7 +19,7 @@
 
 .list {
   display: grid;
-  grid-template-columns: repeat(auto-fit, 20rem);
+  grid-template-columns: repeat(auto-fit, minmax(auto, 20rem));
   gap: 1rem;
   justify-content: center;
   padding-left: 0;
