@@ -1,3 +1,10 @@
+@font-face {
+  font-family: "Font Over";
+  src: url("fonts/subsets/title/FontOver.woff2") format("woff2");
+  unicode-range: U+412, U+418, U+41B, U+421, U+422, U+428;
+  font-display: block;
+}
+
 :root {
   --color-mow-light: #c3b892;
   --color-mow-dark: #453a28;
@@ -15,6 +22,12 @@
 
 .page__body {
   font-family: "Verdana", sans-serif;
+}
+
+.page__title {
+  font-family: "Font Over", sans-serif;
+  text-align: center;
+  text-transform: uppercase;
 }
 
 .list {
