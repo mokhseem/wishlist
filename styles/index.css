@@ -40,44 +40,48 @@
 }
 
 .card {
+  --_bg-color: var(--bg-color, #e7e7e7);
+  --_text-color: var(--text-color);
+
   position: relative;
   z-index: 0;
   display: grid;
   grid-template-rows: repeat(2, auto) 1fr auto;
   padding: 1.25rem;
   border-radius: 1rem;
-  background-color: #e7e7e7;
+  background-color: var(--_bg-color);
+  color: var(--_text-color);
   aspect-ratio: 2 / 3;
 }
 
 .card--100 {
-  background-color: var(--color-mow-light);
-  color: var(--color-mow-dark);
+  --bg-color: var(--color-mow-light);
+  --text-color: var(--color-mow-dark);
 }
 
 .card--200 {
-  background-color: var(--color-uks-light);
-  color: var(--color-uks-dark);
+  --bg-color: var(--color-uks-light);
+  --text-color: var(--color-uks-dark);
 }
 
 .card--500 {
-  background-color: var(--color-arh-light);
-  color: var(--color-arh-dark);
+  --bg-color: var(--color-arh-light);
+  --text-color: var(--color-arh-dark);
 }
 
 .card--1k {
-  background-color: var(--color-iar-light);
-  color: var(--color-iar-dark);
+  --bg-color: var(--color-iar-light);
+  --text-color: var(--color-iar-dark);
 }
 
 .card--2k {
-  background-color: var(--color-vvo-light);
-  color: var(--color-vvo-dark);
+  --bg-color: var(--color-vvo-light);
+  --text-color: var(--color-vvo-dark);
 }
 
 .card--5k {
-  background-color: var(--color-khv-light);
-  color: var(--color-khv-dark);
+  --bg-color: var(--color-khv-light);
+  --text-color: var(--color-khv-dark);
 }
 
 .seller {
