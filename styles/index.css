@@ -1,24 +1,5 @@
-@font-face {
-  font-family: "Font Over";
-  src: url("fonts/subsets/title/FontOver.woff2") format("woff2");
-  unicode-range: U+412, U+418, U+41B, U+421, U+422, U+428;
-  font-display: block;
-}
-
-:root {
-  --color-mow-light: #c3b892;
-  --color-mow-dark: #453a28;
-  --color-uks-light: #bddbd8;
-  --color-uks-dark: #2b6342;
-  --color-arh-light: #d1bdbf;
-  --color-arh-dark: #312c32;
-  --color-iar-light: #c8e4eb;
-  --color-iar-dark: #293228;
-  --color-vvo-light: #bcd2e7;
-  --color-vvo-dark: #234295;
-  --color-khv-light: #ecada5;
-  --color-khv-dark: #341c1a;
-}
+@import "fonts.css";
+@import "colors.css";
 
 .page__body {
   font-family: "Verdana", sans-serif;
