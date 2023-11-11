@@ -46,12 +46,17 @@ const sellerTemplate = getTemplateById('seller');
 
 const createCardCollection = (jsonArray) => {
   const cardBox = document.createDocumentFragment();
+  jsonArray = shuffleArray(jsonArray).sort((wish) => wish.done ? 1 : -1);
 
   if (cardTemplate) {
-    for (const {link, image, title, description, price} of shuffleArray(jsonArray)) {
+    for (const {link, image, title, description, price, done} of jsonArray) {
       const cardClone = cardTemplate.cloneNode(true);
       const cardImageClone = cardClone.querySelector('.card__image');
       const cardPriceTagClone = cardClone.querySelector('.card__price > data');
+
+      if (done) {
+        cardClone.classList.add('list__item--is-disabled');
+      }
 
       if (sellerTemplate) {
         const seller = cardClone.querySelector('.seller');
