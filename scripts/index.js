@@ -66,7 +66,9 @@ const createCardCollection = (jsonArray) => {
           const sellerIconClone = sellerClone.querySelector('.seller__icon');
 
           const url = new URL(link[priorityLink].href);
-          const domain = url.hostname.split('.').at(-2);
+          // const domain = url.hostname.split('.').at(-2);
+          const hostname = url.hostname.split('.');
+          const domain = hostname[hostname.length - 2];
 
           if (priorityLink) {
             sellerClone.href = link[priorityLink].href;
