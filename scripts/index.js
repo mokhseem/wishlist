@@ -3,8 +3,7 @@ import {shopFavicon} from './favsmap.js';
 // local:
 // const jsonFile = '../data/wishlist.json';
 
-// pages:
-const jsonFile = '/wishlist/data/wishlist.json';
+const jsonFile = 'https://raw.githubusercontent.com/mokhseem/wishlist-data/main/wishlist.json';
 
 const shuffleArray = (array) => {
   for (let i = array.length - 1; i > 0; i--) {
