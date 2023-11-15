@@ -31,6 +31,12 @@
   list-style: none;
 }
 
+@supports not (gap: 0) {
+  .list {
+    grid-gap: 1rem;
+  }
+}
+
 .list__item {
   display: inherit;
   border-radius: var(--card-corner);
@@ -111,6 +117,12 @@
   row-gap: 0.5rem;
 }
 
+@supports not (row-gap: 0) {
+  .seller {
+    grid-row-gap: 0.5rem;
+  }
+}
+
 .seller__link {
   --side: 2rem;
 
@@ -173,6 +185,15 @@
     inset: 0;
     z-index: -1;
     border-radius: var(--card-corner);
+  }
+}
+
+@supports not (inset: 0) {
+  .card__title > .card__link::before {
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
   }
 }
 
