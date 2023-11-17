@@ -1,9 +1,7 @@
-import {shopFavicon} from './favsmap.js';
+import { shopFavicon } from './favsmap.js';
 
-// local:
-// const jsonFile = '../data/wishlist.json';
-
-const jsonFile = 'https://raw.githubusercontent.com/mokhseem/wishlist-data/main/wishlist.json';
+// const JSON = '../data/list.json';
+const JSON = '/wishlist/data/list.json';
 
 const shuffleArray = (array) => {
   for (let i = array.length - 1; i > 0; i--) {
@@ -103,6 +101,6 @@ const createCardCollection = (jsonArray) => {
   }
 };
 
-fetch(jsonFile)
+fetch(JSON)
   .then((response) => response.json())
   .then((data) => createCardCollection(data));
