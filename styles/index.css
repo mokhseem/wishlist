@@ -58,7 +58,8 @@
 }
 
 .list__item {
-  display: inherit;
+  display: grid;
+  grid-template: subgrid / subgrid;
   border-radius: var(--card-corner);
 }
 
